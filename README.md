@@ -7,4 +7,4 @@ https://github.com/ytakefuji/python-novice
 The new_deaths.csv is created from the following site:
 https://covid.ourworldindata.org/data/ecdc/new_deaths.csv
 
-<img src='us.gif' height=400 width=400>
+<img src='us.gif' height=400 width=600>
