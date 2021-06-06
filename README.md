@@ -1,6 +1,6 @@
 # COVID-19 daily death prediction
 
-deathdaily is a Python program using new_deaths.csv for predicting daily deaths due to COVID-19 in the next seven days.
+deathdaily is a Python program using new_deaths.csv for predicting daily deaths due to COVID-19 in the next seven days. The prediction is based on the Xthe degree polynomial fitting.
 
 X-axis is the xth day from Jan.22 2020 to the day you have downloaded new_deaths.csv file. Y-axis depicts the number of daily deaths in the country.
 
