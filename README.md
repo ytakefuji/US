@@ -30,4 +30,4 @@ The new_deaths.csv file is downloadable from the following site:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-<img src="https://github.com/ytakefuji/covid-19_daily_death_prediction/>
+<img src="https://github.com/ytakefuji/covid-19_daily_death_prediction/raw/main/Japan.png" width=320 height=240 >
