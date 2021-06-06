@@ -21,6 +21,7 @@ def main(country,days=440, degree=5):
  plt.plot(x,y,'k')
  plt.plot(x1,ny1,'b')
  plt.legend(['daily deaths in '+str(country),str(days)+' days from '+str(date)+' '+str(degree)+'th'])
+ plt.savefig(country+".png")
  plt.show()
 country='Japan'
 days=440
