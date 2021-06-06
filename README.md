@@ -12,7 +12,7 @@ $ pip install deathdaily
 
 "country" shows which country you would like to predict the daily deaths of the next seven days.
 
-"days" indicates how many days are used for Xth degree polynomial fitting
+"days" indicates how many days are used for Xth degree polynomial fitting.
 
 "degree" determined the degree of polynomial curve-fitting.
 
@@ -30,4 +30,4 @@ The new_deaths.csv file is downloadable from the following site:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-<img src="
+<img src="https://github.com/ytakefuji/covid-19_daily_death_prediction/>
