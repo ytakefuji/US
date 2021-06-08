@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 data=pd.read_csv("new_deaths.csv")
-def main(country,days=440, degree=5):
+def main(country="Japan",days=440, degree=5):
  n=len(data[country])
  y=data[country][n-days:n]
  for i in y:
