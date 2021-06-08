@@ -34,6 +34,7 @@ if len(sys.argv)==2:
   country=sys.argv[1]
  else:
   print('correct country name!')
+  sys.exit()
 if len(sys.argv)==3:
  if sys.argv[1] in data.columns:
   country=sys.argv[1]
@@ -44,6 +45,7 @@ if len(sys.argv)==3:
    days=int(sys.argv[2])
  else:
   print('correct country name')
+  sys.exit()
 if len(sys.argv)==4:
  if sys.argv[1] in data.columns:
   country=sys.argv[1]
