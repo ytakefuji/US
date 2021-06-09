@@ -23,7 +23,7 @@ def main(country="Japan",days=440, degree=5):
  plt.legend(['daily deaths in '+str(country),str(days)+' days from '+str(date)+' '+str(degree)+'th'])
  plt.savefig(country+".png")
  plt.show()
-country='Japan'
+country=""
 days=440
 degree=5
 if len(sys.argv)==1:
@@ -31,13 +31,13 @@ if len(sys.argv)==1:
  sys.exit()
 if len(sys.argv)==2:
  if sys.argv[1] in data.columns:
-  country=sys.argv[1]
+  country=str(sys.argv[1])
  else:
   print('correct country name!')
   sys.exit()
 if len(sys.argv)==3:
  if sys.argv[1] in data.columns:
-  country=sys.argv[1]
+  country=str(sys.argv[1])
   if int(sys.argv[2])>len(data[country]):
    print('use smaller days')
    sys.exit()
@@ -48,13 +48,13 @@ if len(sys.argv)==3:
   sys.exit()
 if len(sys.argv)==4:
  if sys.argv[1] in data.columns:
-  country=sys.argv[1]
+  country=str(sys.argv[1])
   if int(sys.argv[2])>len(data[country]):
    print('use smaller days')
    sys.exit()
   else:
    days=int(sys.argv[2])
-   if int(degree)> 4:
+   if int(sys.argv[3]) > 4:
     degree=int(sys.argv[3])
    else:
     print('use higher degree number')
