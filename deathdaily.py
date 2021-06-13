@@ -3,7 +3,12 @@ import numpy as np
 import sys
 from time import sleep
 import matplotlib.pyplot as plt
+import subprocess as sp
+sp.call("wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv",shell=True)
+sp.call("cat new_deaths.csv|sed '2,$s/,-/,/g' >new",shell=True)
+sp.call("mv new new_deaths.csv",shell=True)
 data=pd.read_csv("new_deaths.csv")
+sp.call("rm new_deaths.csv",shell=True)
 
 class main:
  def main(self,country,days=440,degree=5):
