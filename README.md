@@ -8,7 +8,7 @@ X-axis is the xth day from Jan.22 2020 to the day you have downloaded new_deaths
 
 deathdaily needs a new_deaths.csv file for predicting the daily deaths of the next seven days.
 
-The new_deaths.csv file is downloadable from the following site:
+The new_deaths.csv file is automatically downloaded by deathdaily from the following site:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
